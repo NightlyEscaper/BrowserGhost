@@ -1,0 +1,25 @@
+{
+    "name": "BrowserGhost",
+    "version": "v0.0.0",
+    "command_name": "browserghost",
+    "original_author": "n0thing",
+    "repo_url": "https://github.com/NightlyEscaper/BrowserGhost",
+    "help": "Dump credentials in explorer.",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "BrowserGhost.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "BrowserGhost.exe"
+      }
+    ]
+  }
